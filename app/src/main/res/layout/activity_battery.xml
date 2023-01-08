@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbfcde"
+    tools:context=".battery">
+
+    <TextView
+        android:id="@+id/BTV"
+        android:layout_width="171dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#9ee6c5"
+        android:fontFamily="serif"
+        android:text="baterry level:"
+        android:textColor="#077844"
+        android:textColorLink="#077844"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ProgressBar
+        android:id="@+id/BPB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="316dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9ee6c5"
+        android:progressBackgroundTint="#077844"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="170dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
